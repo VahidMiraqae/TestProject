@@ -11,9 +11,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProject.Core", "TestPro
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProject.Application", "TestProject.Application\TestProject.Application.csproj", "{FE5E2FD7-2F85-43A2-9735-8F950940F75B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject.RabbitMq", "TestProject.RabbitMq\TestProject.RabbitMq.csproj", "{B884A3A6-BBB2-480B-A3F1-C30DD586BB13}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProject.RabbitMq", "TestProject.RabbitMq\TestProject.RabbitMq.csproj", "{B884A3A6-BBB2-480B-A3F1-C30DD586BB13}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject.Warehouse.HttpApi.Host", "TestProject.Warehouse.HttpApi.Host\TestProject.Warehouse.HttpApi.Host.csproj", "{4AD342C8-1275-48F9-8B72-37741C05487C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProject.Warehouse.HttpApi.Host", "TestProject.Warehouse.HttpApi.Host\TestProject.Warehouse.HttpApi.Host.csproj", "{4AD342C8-1275-48F9-8B72-37741C05487C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{42A74867-8345-48E8-9B1F-09702B1ADB80}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
