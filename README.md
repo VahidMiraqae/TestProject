@@ -12,3 +12,9 @@ properly set the location of .db files.
 3. run 
 	- TestProject.HttpApi.Host
 	- TestProject.Warehouse.HttpApi.Host
+
+to access the UI for Rabbitmq you need to add the following in docker run
+
+-p [port]:15672
+
+then in a browser go to: localhost:[port]
